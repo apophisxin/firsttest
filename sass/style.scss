@@ -1,0 +1,251 @@
+
+.box{
+	width: 100%;
+	height: 750px;
+	max-width: 1024px;
+	margin: 0px auto;
+	position: relative;
+	display: table;
+}
+.first{
+	width: 100%;
+	height: auto;
+	min-height: 800px;
+	background-image: url(../image/1.jpg);
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.first-box-meau{
+	position: absolute;
+	top: 6px;
+	right: 0px;
+}
+.first-box-word{
+	width: 100%;
+    height: auto;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+.title-word{
+	color: #a1a9b0;
+	letter-spacing: 9px;
+    font-size: 40px;
+}
+.title-word-first{
+	color: #353535;
+}
+.article{
+	color: #8c9398;
+	letter-spacing: 4px;
+    font-size: 15px;	
+}
+.push-button{
+    color: #ffffff;
+    border-radius: 9px;
+    background-color: #3dc9b3;
+    border: 0;
+    border-bottom: 4px solid #309383;
+    letter-spacing: 4px;
+    font-size: 15px;
+    padding: 30px 50px;
+    cursor: pointer;
+    outline: none;
+}
+.push-button:hover{
+	background-color: #166458;
+	color: black;
+	border-bottom: 4px solid #85fce9;
+}
+.second{
+    background-image: url(../image/5.jpg);	
+	.second-box-word{
+		width: 100%;
+	    height: 750px;
+	    text-align: center;
+	    display: table-cell;
+	    vertical-align: middle;
+		.arrow{
+			width: 530px;
+		    height: 20px;
+		    margin: 0 auto;
+		    background-image: url(../image/4.png);
+		    background-repeat: repeat-x;
+		    background-position: 0px 5px;
+
+		    .linearrow{
+		    	width: 100px;
+			    height: 20px;
+			    margin: 0 auto;
+			    background-image: url(../image/3.png);
+			    background-repeat: no-repeat;
+			    background-position: 40px 0px;
+			    background-color:#f3f5f8;
+		    }
+		}
+		.title-word2{
+			color: #353535;
+			letter-spacing: 1px;
+		    font-size: 15px;
+		}
+		.article2{
+			color: #8c9398;
+		    letter-spacing: 1px;
+		    font-size: 14px;
+		    width: 68%;
+		    margin: 0 auto;
+		    padding-top: 70px;
+		    .article2-point{
+		    	color: #353535;
+		    }
+		}
+	}
+}
+.third{
+	.third-box-one{
+	width: 100%;
+	height: 200px;
+	text-align: center;
+	vertical-align: middle;
+	}
+		.title-word3{
+		color: #353535;
+		letter-spacing: 1px;
+		font-size: 15px;	
+		padding-top: 100px;
+		}
+		.arrow3{
+			width: 530px;
+		    height: 20px;
+		    margin: 0 auto;
+		    background-image: url(../image/4.png);
+		    background-repeat: repeat-x;
+		    background-position: 0px 5px;
+
+		    .linearrow3{
+		    	width: 100px;
+			    height: 20px;
+			    margin: 0 auto;
+			    background-image: url(../image/3.png);
+			    background-repeat: no-repeat;
+			    background-position: 40px 0px;
+			    background-color:#ffffff;
+		    }
+		}
+	.third-box-two{
+	width: 100%;
+	height: 500px;
+	overflow: hidden;
+		.third-1-2,.third-1-3,.third-1-4{
+			width: 33.333%;
+			height: auto;
+			float: left;
+			text-align: center;
+			padding: 0 10px;
+			box-sizing: border-box;	
+		}
+			.third-1-2-1{
+			width: 100%;
+			height: auto;
+			}
+			.third-1-2-2{
+			width: 100%;
+			height: auto;
+			padding-top: 30px;
+				.third-1-2title{
+				color: #353535;
+				letter-spacing: 1px;
+			    font-size: 15px;	
+				}
+				.third-1-2pic2{
+				height: 20px;
+				padding-top: 10px;
+				}
+			}
+			.third-1-2-3{
+			width: 100%;
+			height: auto;
+				.third-1-2article1{
+				color: #8c9398;
+			    letter-spacing: 1px;
+			    font-size: 14px;				
+				}
+			}
+
+			.third-1-3-1{
+			width: 100%;
+			height: auto;
+			}
+			.third-1-3-2{
+			width: 100%;
+			height: auto;
+			padding-top: 30px;
+				.third-1-3title{
+				color: #353535;
+				letter-spacing: 1px;
+			    font-size: 15px;	
+				}
+				.third-1-3pic2{
+				height: 20px;
+				padding-top: 10px;
+				}
+			}
+			.third-1-3-3{
+			width: 100%;
+			height: auto;
+				.third-1-3article1{
+				color: #8c9398;
+			    letter-spacing: 1px;
+			    font-size: 14px;				
+				}
+			}
+
+			.third-1-4-1{
+			width: 100%;
+			height: auto;
+			}
+			.third-1-4-2{
+			width: 100%;
+			height: auto;
+			padding-top: 30px;
+				.third-1-4title{
+				color: #353535;
+				letter-spacing: 1px;
+			    font-size: 15px;	
+				}
+				.third-1-4pic2{
+				height: 20px;
+				padding-top: 10px;
+				}
+			}
+			.third-1-4-3{
+			width: 100%;
+			height: auto;
+				.third-1-4article1{
+				color: #8c9398;
+			    letter-spacing: 1px;
+			    font-size: 14px;				
+				}
+			}
+	}
+}
+
+.fourth{
+	.fourth-box-all{
+	width: 100%;
+	height: 700px;
+		.fourth-box-one,.fourth-box-two{
+		width: 50%;
+		height: auto;
+		float: left;
+		position: relative;
+			.fourth-pic{
+			position: absolute;
+			top: 0;
+			right: 0px;
+			}
+		
+		}
+
+	}
+}
